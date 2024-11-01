@@ -1,0 +1,11 @@
+@ScrapbookApi_HostAddress = http://localhost:5055
+
+GET {{ScrapbookApi_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{ScrapbookApi_HostAddress}}/todos/1
+Accept: application/json
+
+###
